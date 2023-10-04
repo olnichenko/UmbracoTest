@@ -1,0 +1,27 @@
+{
+  "Deploy": {
+    "Project": {
+      "Name": "test project",
+      "Alias": "test-project",
+      "Id": "ea5d1cda-57f7-4f99-9f26-8ec2548b8c9c",
+      "TrialExpireDate": "2023-10-17T12:29:31.0000000",
+      "Workspaces": [
+        {
+          "Id": "d1086cf6-e027-493d-8e81-5b30c1a6e07b",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://test-project.euwest01.umbraco.io"
+        }
+      ]
+    },
+    "Settings": {
+      "ApiKey": "0464CB483E13DBF2452C3BDB52ECF932EEB871F9"
+    }
+  },
+  "Identity": {
+    "ClientId": "0297c0f6-83ad-4481-9ae2-07a3f5475333",
+    "ClientSecret": "Q5~T526ixOHlj47lg7Mu7_.zN1fK.7ua.9",
+    "EnvironmentId": "d1086cf6-e027-493d-8e81-5b30c1a6e07b",
+    "LocalLoginRedirectUri": "https://redirect.identity.umbraco.com"
+  }
+}

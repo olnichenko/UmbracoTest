@@ -1,0 +1,9 @@
+﻿label.error {
+    color: red;
+}
+
+input.valid {
+    border: 2px solid #4CAF50;
+    color: green;
+}body {
+}
