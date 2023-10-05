@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServiceReference1;
+//using ServiceReference1;
+using ServiceReference2;
 
 namespace UmbracoProject1.Controllers
 {
@@ -14,7 +16,7 @@ namespace UmbracoProject1.Controllers
 			var remoteIpAddress = Request.HttpContext.Connection.RemoteIpAddress;
 			var service = new ICUTechClient();
 			var response = await service.LoginAsync(userName, password, remoteIpAddress?.ToString());
-			
+
 			return response.@return;
 		}
 

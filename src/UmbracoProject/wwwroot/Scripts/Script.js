@@ -25,7 +25,7 @@ function register(e) {
     }
 
     var userName = userNameEl.val();
-    var password = userNameEl.val();
+    var password = passwordEl.val();
     var registerUrl = "/api/account/Register";
     var userData = { email: userName, password: password }
 
@@ -48,7 +48,7 @@ function login(e) {
     }
 
     var userName = userNameEl.val();
-    var password = userNameEl.val();
+    var password = passwordEl.val();
     var loginUrl = "/api/account/login";
     var userData = { userName: userName, password: password }
 
@@ -79,6 +79,7 @@ function alertError() {
 function clearAlert(element) {
     element.find("#alert-message").html("");
     element.removeClass("alert-danger");
+    element.removeClass("alert-warning");
     element.removeClass("alert-success");
 }
 
